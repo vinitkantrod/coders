@@ -1,0 +1,5 @@
+n = []
+n = raw_input()
+n = int(n)
+a = n
+print(a+" no of input")

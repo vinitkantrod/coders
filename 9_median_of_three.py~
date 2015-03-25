@@ -1,0 +1,18 @@
+
+v = []
+n=raw_input()
+n=int(n)
+
+for i in range(n):
+        temp = []
+        a,b,c = raw_input().split()
+        temp.append(a)
+        temp.append(b)
+        temp.append(c)
+        print temp
+        temp = list(map(int,temp))
+        temp.sort()
+        print temp
+        v.append(temp[1])
+        print v
+print(" ".join((str(e)) for e in v))
